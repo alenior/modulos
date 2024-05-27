@@ -20,3 +20,7 @@ def triplo(preco=0, formata=False):
 
 def moeda(preco: float = 0, moeda='R$'):
     return f'{moeda} {preco:>.2f}'.replace(".", ",")
+
+
+def resumo(preco, aumento, diminuicao):
+    print(f'')
